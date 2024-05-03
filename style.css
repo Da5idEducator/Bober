@@ -1,0 +1,43 @@
+p {
+    color: #59f47b;
+}
+
+body {
+    background-color: #00204a;
+    color: #edf2f3;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.intro {
+    color: aqua;
+}
+
+h2 {
+    color: rgb(243, 97, 212);
+}
+
+h3 {
+    color:blueviolet;
+}
+
+table {
+    border: 10px dotted pink;
+}
+
+.flex-container {
+    display:flex;
+    flex-direction: row;
+    border-radius: 15px;
+    background-color: crimson;
+    justify-content: space-around;
+    padding: 2%;
+}
+
+.flex-container > div {
+    background-color: rgb(88, 6, 50);
+    margin: 15px;
+    padding: 20px;
+    column-gap: 15px;
+    box-shadow: 5px 5px;
+    border-radius: 20px;
+}
